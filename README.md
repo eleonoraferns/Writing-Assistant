@@ -18,14 +18,14 @@ This is not a content generator. It doesn't write for you — it **guides you to
 ## Project Structure
 
 ```
-writers_block/
+writing-assistant/
 ├── main.py                      # Main loop
 ├── chains/
 │   ├── reflective.py            # Reflective guidance chain
 │   ├── socratic.py              # Socratic question chain
 │   └── spark.py                 # Creative nudges chain
 └── .venv/                       # Virtual environment
-|
+
 ```
 
 ---
