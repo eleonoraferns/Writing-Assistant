@@ -7,30 +7,30 @@ This is not a content generator. It doesn't write for you — it **guides you to
 
 ---
 
-## ✨ Features
+## Features
 
-* 🏈 **Reflective Mode**: Calm, supportive questions to help you reconnect with your creative voice
-* 🧠 **Socratic Mode**: Minimal, open-ended questioning to guide your own insight
-* 🎇 **Creative Spark Mode**: Unexpected angles, scene flips, or perspective changes
+* **Reflective Mode**: Calm, supportive questions to help you reconnect with your creative voice
+* **Socratic Mode**: Minimal, open-ended questioning to guide your own insight
+* **Creative Spark Mode**: Unexpected angles, scene flips, or perspective changes
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-writers_block/
+writing-assistant/
 ├── main.py                      # Main loop
 ├── chains/
 │   ├── reflective.py            # Reflective guidance chain
 │   ├── socratic.py              # Socratic question chain
 │   └── spark.py                 # Creative nudges chain
 └── .venv/                       # Virtual environment
-|
+
 ```
 
 ---
 
-## 🚀 Setup & Run
+## Setup & Run
 
 ### 1. Install Ollama(https://ollama.com/)
 
@@ -64,7 +64,7 @@ python main.py
 
 ---
 
-## 💠 Tech Stack
+## Tech Stack
 
 * **Python** 3.11+
 * **LangChain** (core + community)
@@ -73,7 +73,7 @@ python main.py
 
 ---
 
-## 📌 Why This Project?
+## Why This Project?
 
 Built to help real writers think more clearly, rather than replace their creativity.
 
@@ -82,7 +82,7 @@ You just need a **good question** and a **little nudge**
 
 ---
 
-## 📈 Future Scope
+## Future Scope
 
 * [ ] Add memory to recall past responses
 * [ ] GUI version
