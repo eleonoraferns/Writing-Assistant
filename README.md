@@ -36,15 +36,11 @@ writing-assistant/
 
 Make sure it’s running with the LLaMA 3.2 model:
 
-```bash
-ollama run llama3.2
-```
 
-
-### 2. Clone this repo & create a virtual environment https://github.com/eleonoraferns/Writing-Assistant
+### 2. Clone this repo & create a virtual environment 
 
 ```bash
-git clone 
+git clone https://github.com/eleonoraferns/Writing-Assistant
 cd writing-assistant
 python -m venv .venv
 .venv\Scripts\activate  # (or source .venv/bin/activate on Mac/Linux)
